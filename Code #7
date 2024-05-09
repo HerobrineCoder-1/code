@@ -1,0 +1,19 @@
+Code#7
+hero.moveUp();
+hero.moveRight();
+
+var pathFree = hero.canMoveRight();
+
+if (pathFree === true) {
+    hero.moveRight(2);
+    hero.moveUp(2);
+}
+
+if (pathFree === false) {
+    hero.moveUp(2);
+    hero.moveRight(2);
+}
+hero.jumpRight();
+hero.moveRight(1);
+hero.jumpDown();
+hero.moveDown(1);
