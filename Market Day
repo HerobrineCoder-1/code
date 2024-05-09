@@ -1,0 +1,24 @@
+hero.moveRight();
+
+var pathFree = hero.canMoveUp();
+
+if (pathFree === true) {
+    hero.moveUp(2);
+    hero.moveRight(3);
+}
+
+if (pathFree === false) {
+    hero.moveRight(3);
+    hero.moveUp(2);
+}
+
+if (pathFree === true) {
+    hero.moveUp(2);
+    hero.moveRight(3);
+}
+
+if (pathFree === false) {
+    hero.moveRight(2);
+    hero.moveUp(2);
+    hero.moveRight(1);
+}
