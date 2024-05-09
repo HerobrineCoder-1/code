@@ -1,0 +1,14 @@
+code
+
+var steps = 3;
+
+hero.moveRight(steps);
+var friend = hero.findNearestFriend();
+hero.castIllusionMist(friend);
+hero.sneakRight(3);
+
+
+
+
+
+
