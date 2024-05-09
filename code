@@ -1,0 +1,10 @@
+code
+var freind = "Octans";
+var steps = 2;
+hero.castIllusionMist(freind);
+hero.sneakUp(steps);
+hero.castIllusionMist(freind);
+hero.sneakUp(steps);
+hero.castIllusionMist(freind);
+hero.moveUp(1);
+hero.moveRight(3);
