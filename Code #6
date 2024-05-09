@@ -1,0 +1,22 @@
+Code#6
+
+hero.moveUp(2);
+hero.moveRight(2);
+hero.moveDown(2);
+var friend = hero.findNearestFriend();
+hero.castIllusionMist(friend);
+var friend = hero.findNearestFriend();
+hero.castIllusionMist(friend);
+ friend = hero.findNearestFriend();
+hero.moveUp(3);
+hero.moveRight(3);
+hero.moveDown(3);
+var friend = hero.findNearestFriend();
+hero.castIllusionMist(friend);
+hero.moveRight(4);
+var friend = hero.findNearestFriend();
+hero.castIllusionMist(friend);
+hero.moveLeft(2);
+hero.moveUp(4);
+
+ friend = hero.findNearestFriend();
