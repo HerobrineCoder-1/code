@@ -1,0 +1,12 @@
+code #4
+
+var steps = 2;
+hero.moveRight(steps);
+var friend = hero.findNearestFriend();
+hero.castIllusionMist("Bootes");
+hero.moveRight(steps);
+var friend = hero.findNearestFriend();
+hero.castIllusionMist(friend);
+steps = 4;
+hero.moveRight(steps);
+
