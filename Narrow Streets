@@ -1,0 +1,45 @@
+Streets
+
+hero.moveUp(2);
+hero.moveRight(2);
+
+var pathFree = hero.canMoveRight();
+ hero.moveUp(2);
+    hero.moveRight(2);
+
+
+
+var pathFree = hero.canMoveUp();
+
+if (pathFree === true) {
+    hero.moveUp(2);
+    hero.moveRight(3);
+    hero.moveUp(2);
+    hero.moveRight(3);
+   
+}
+
+if (pathFree === false) {
+    hero.moveRight(3);
+    hero.moveUp(2);
+   hero.moveRight(1);
+   hero.moveRight(1);
+   hero.moveUp(2);
+   hero.moveRight(1);
+   
+}
+
+pathFree = hero.canMoveUp();
+
+if (pathFree === false) {
+  hero.moveRight(2);  
+  hero.moveUp(2);
+  hero.moveRight(1);
+   
+}
+
+
+if (pathFree === false) {
+    hero.moveUp(1);
+   
+}    
